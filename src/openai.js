@@ -1,5 +1,5 @@
 export async function sendMsgToAI(message) {
-  const res = await fetch("http://localhost:5000/api/chat", {
+  const res = await fetch("https://ai-chabot-server.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
